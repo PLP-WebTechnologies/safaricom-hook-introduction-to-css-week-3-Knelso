@@ -1,0 +1,103 @@
+/* Apply a neutral font and background to the entire webpage */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f3f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Change text color and make headings stand out */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Add some visual polish to sections */
+.section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize the heading inside sections */
+.section h2 {
+    font-size: 30px;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+/* Add a stylish border to unique elements */
+#unique-element {
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+/* Styling for the card component */
+.card {
+    background-color: #fdfdfd;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust card text color and margin */
+.card h2 {
+    color: #34495e;
+    font-size: 28px;
+}
+
+.card p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+/* Buttons with hover effect */
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #3498db;
+}
+
+/* Make the design responsive on smaller screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .section, .card {
+        padding: 20px;
+    }
+
+    .card h2 {
+        font-size: 24px;
+    }
+
+    .button {
+        padding: 12px 20px;
+    }
+}
